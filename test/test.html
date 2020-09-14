@@ -16,6 +16,13 @@
             </li>
             <% } 
             %>
+        <%if(4 < users.length) { %>
+            <div>
+                长度大于4
+            </div>
+        <%}else{%>
+            <div>长度小于4</div>
+        <%}%>
     </script>
     <script src="../src/index.js"></script>
 </body>
